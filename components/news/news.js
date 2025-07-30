@@ -15,7 +15,7 @@ Yazacağınız NewsBuilder fonksiyonu, yukarıdaki sampleNewsItem yapısındaki 
 
 <div class="article">
   <h2>{haber başlığı}</h2>
-  <p class="tarih">{haber tarihi}</p>
+  <p class="date">{haber tarihi}</p>
 
   {üç ayrı paragraf elementi}
 
