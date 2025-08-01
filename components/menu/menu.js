@@ -11,12 +11,35 @@ MenuBuilder aşağıdaki yapıya sahip bir içerik oluşturmalı ve return etmel
     {... Adım 2 ...}
   </ul>
 </div>
+*/
+
+function MenuBuilder(menuItems){
+  const menuDiv= document.createElement("div");
+  menuDiv.classList.add("menu");
+
+  const ul=document.createElement("ul");
+
+  for(let i=0;i<menuItems.length; i++)
+  {
+    const li= document.createElement("li");
+    li.textContent=menuItems[i];
+    ul.appendChild(li);
+  }
+
+  menuDiv.appendChild(ul);
+  return menuDiv;
+}
 
 
-Adım 2: Menü ögelerini oluşturmak
+
+/*Adım 2: Menü ögelerini oluşturmak
 MenuBuilder fonksiyonu, parametre olarak aldığı arrayin her bir elemanı için <li> oluşturmalı ve bunları yukarıdaki <ul> içine eklemeli.
+*/
 
 
+
+
+/*
 Adım 3: Menüyü açıp kapatmak
 index.html içindeki menu-button classına sahip elemana tıklandığında, MenuBuilder içinde oluşturduğunuz menu classına sahip elemanda 'isOpen' classı varsa çıkarmalı, yoksa eklemeli. (Yani isOpen classını toggle etmeli)
 

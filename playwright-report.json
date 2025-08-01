@@ -1,0 +1,76 @@
+{
+  "stats": {
+    "expected": 1,
+    "unexpected": 10,
+    "skipped": 0,
+    "flaky": 0,
+    "duration": 9619
+  },
+  "tests": [
+    {
+      "title": "article sayısı doğru mu?",
+      "status": "failed",
+      "duration": 608
+    },
+    {
+      "title": "her article içinde gerekli elementler bulunuyor mu?",
+      "status": "failed",
+      "duration": 465
+    },
+    {
+      "title": "article başlık ve tarihleri doğru render ediliyor mu?",
+      "status": "failed",
+      "duration": 585
+    },
+    {
+      "title": "expandButton tıklanınca ilgili article'a isOpen classı ekleniyor mu?",
+      "status": "timedOut",
+      "duration": 2042
+    },
+    {
+      "title": "bir article'da isOpen classı varken expandButton'a tıklanınca isOpen classı kaldırılıyor mu?",
+      "status": "timedOut",
+      "duration": 2029
+    },
+    {
+      "title": "expandButton textContent olarak '+' içeriyor mu?",
+      "status": "failed",
+      "duration": 500
+    },
+    {
+      "title": "menu oluşturulmuş ve header içinde bulunuyor mu?",
+      "status": "failed",
+      "duration": 560
+    },
+    {
+      "title": "menu içinde ul ve doğru sayıda li var mı?",
+      "status": "failed",
+      "duration": 556
+    },
+    {
+      "title": "li içerikleri menuElemanlari ile eşleşiyor mu?",
+      "status": "failed",
+      "duration": 542
+    },
+    {
+      "title": "menu-button'a tıklanınca isOpen classı ekleniyor mu?",
+      "status": "failed",
+      "duration": 581
+    },
+    {
+      "title": "menu-button'a tekrar tıklanınca isOpen classı kaldırılıyor mu?",
+      "status": "failed",
+      "duration": 586
+    },
+    {
+      "title": "ilk açılışta menu isOpen classı içermiyor olmalı",
+      "status": "failed",
+      "duration": 556
+    },
+    {
+      "title": "index.html içeriği değişmemiş olmalı",
+      "status": "passed",
+      "duration": 10
+    }
+  ]
+}
